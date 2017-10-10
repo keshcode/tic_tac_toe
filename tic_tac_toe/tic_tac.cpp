@@ -3,7 +3,7 @@
 #include<map>
 #include<vector>
 #include<stdlib.h>
-#define SIZE 8
+#define SIZE 3
 using namespace std;
 
 
