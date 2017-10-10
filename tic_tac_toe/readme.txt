@@ -31,8 +31,8 @@ Procedure to start:
 #####################################################################################
 	
 	
-	* After one of you win play again option appears # Press 1 to play again and #Press any key which is all Aplhanumeric + symbols discluding "1".
+	* After one of you win play again option appears # Press 1 to play again and #Press other key which is all Aplhanumeric + symbols discluding "1".
 	
 Features :
-	* In tic_tac.cpp there is marcos SIZE whose value is 3 by default.change its value to any inter greater than 3(this value to be maintained by programmer so checks are present).all the other code remains same 
+	* In tic_tac.cpp there is marcos SIZE whose value is 3 by default.change its value to any integer greater than 3(this value to be maintained by programmer so checks are not present).all the other code remains same 
  
