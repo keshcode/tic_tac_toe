@@ -8,27 +8,27 @@ Procedure to start:
 	* Then "Enter the corridnates to insert to" appears enter the valid coordinate from 0 to 2 for x and y position.
 	
 	* Incase of wrong input or string input an Error appears showing "Invalid coordinate".
-#############################################################################################################
-#                                               							    #
-#					  0 x                                                               #
-#					                                                                    #
-#					                                                                    #
-#					Enter the corridnates to insert to                                  #
-#############################################################################################################
+#####################################################################################
+#                             							    #
+#		  0 x                                                               #
+#		                                                                    #
+#		                                                                    #
+#		Enter the corridnates to insert to                                  #
+#####################################################################################
 	(this how it looks after first move)
 	
 	* keep making your movie until you or computer wins.
 	
-	#############################################################################################################
-#					x 0   								    #
-#					x 0   								    #
-#					x     								    #
-#													    #
-#					====YOU WIN====							    #
-#													    #
-#					play again, #press 1						    #
-#					exit, #press any key						    #
-#############################################################################################################
+#####################################################################################
+#		x 0   								    #
+#		x 0   								    #
+#		x     								    #
+#										    #
+#		====YOU WIN====							    #
+#										    #
+#		play again, #press 1						    #
+#		exit, #press any key						    #
+#####################################################################################
 	
 	
 	* After one of you win play again option appears # Press 1 to play again and #Press any key which is all Aplhanumeric + symbols discluding "1".
