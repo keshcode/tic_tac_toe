@@ -1,6 +1,9 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<cmath>
+#include<map>
+#include<vector>
+#include<stdlib.h>
 #define SIZE 3
-// #TODO add only required lib
 using namespace std;
 
 
@@ -139,13 +142,14 @@ bool start_game(){
 	} 
 	
 	for(int i=0;i<user_terns;i++){
-		cout<< "\nEnter the corridnates to insert\n";
+		cout<< "Enter the corridnates to insert in "<<SIZE<<" by "<<SIZE<<": x y (input format) Exp: 1 2\n";
 		cin>>pos_x>>pos_y;
 		while(cin.fail()){
-			cout<<"\n#ERROR : Invalid Coordinates\n";
+			cout<<"#ERROR : Invalid Coordinates\n";
 			cin.clear();
 			cin.ignore(256,'\n');
-			cout<< "\nEnter the corridnates to insert\n";
+			system("clear");
+			cout<< "Enter the corridnates to insert in "<<SIZE<<" by "<<SIZE<<": x y (input format) Exp: 1 2\n";
 			cin>>pos_x>>pos_y;
 		}
 		if(is_valid_move(pos_x,pos_y,matrix)){
