@@ -159,7 +159,7 @@ void input_shape_option(char *user_shape,char *comp_shape){
 	string shape_option;
 	cout<<"choose x or o\n";
 	getline(cin,shape_option,'\n');
-	if(shape_option.size()>1 || ((shape_option[0] == 'x' || shape_option[0] == 'X') && (shape_option[0] == 'o' || shape_option[0] == 'O'))){
+	if(shape_option.size()>1 || ((shape_option[0] != 'x' && shape_option[0] != 'X') && (shape_option[0] != 'o' && shape_option[0] != 'O'))){
 		system("clear");
 		cout<<"#ERROR : Invalid Choose\n";
 		input_shape_option(user_shape,comp_shape);
@@ -187,7 +187,7 @@ void display_matrix_details(char **matrix,char user_shape){
 	*/
 	cout<<"choose x or o\n";
         cout << user_shape << "\n";
-	cout<< "Enter the corridnates to insert in "<<SIZE<<" by "<<SIZE<<": x y (input format) Exp: 1 2\n";
+	cout<< "Enter the cooridnates to insert in "<<SIZE<<" by "<<SIZE<<": x y (input format) Exp: 1 2\n";
         print_matrix(matrix,SIZE);	
 }
 
