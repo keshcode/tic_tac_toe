@@ -3,7 +3,7 @@
 #include<map>
 #include<vector>
 #include<stdlib.h>
-#define SIZE 3
+#define SIZE 8
 using namespace std;
 
 
@@ -52,8 +52,8 @@ void generate_computer_move(int *pos_x,int *pos_y,char **martix){
 			@param int pos_y y coordinate
 			@char **matric reference to 2d array
 		*/
-		int x = rand() %3 +0;
-		int y = rand() %3 +0;
+		int x = rand() %SIZE +0;
+		int y = rand() %SIZE +0;
 		if(is_valid_move(x,y,martix)){
 			*pos_x = x;
 			*pos_y = y;
