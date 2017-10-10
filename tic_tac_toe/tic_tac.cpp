@@ -109,11 +109,11 @@ int check_victory(vector<pair<int,int> > moves){
 
 void input_shape_option(char *user_shape,char *comp_shape){
 	string shape_option;
-	cout<<"\nchoose x or o\n";
-	getline(cin,shape_option);
+	cout<<"choose x or o\n";
+	getline(cin,shape_option,'\n');
 	if(shape_option.size()>1 || (shape_option[0]!='x' && shape_option[0]!='o')){
 		system("clear");
-		cout<<"\n#ERROR : Invalid Choose\n";
+		cout<<"#ERROR : Invalid Choose\n";
 		input_shape_option(user_shape,comp_shape);
 	}
 	if(shape_option[0] == 'x' || shape_option[0] == 'X'){
@@ -190,6 +190,7 @@ int main(){
 	while(1){
 		cout<<"\n play again, #press 1\n"<<"exit, #press any key";
 		cin>>user_wanna_play;
+		cin.ignore(256,'\n');
 		if(user_wanna_play == "1"){
 			system("clear");
 			start_game();
